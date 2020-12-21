@@ -8,47 +8,54 @@
     <title>Reservia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 </head>
-<body>
-    <header>
-        <img src="images\logo\Reservia@3x.png" alt="logo réservia">
 
-        <nav class="menu">
-            <ol>
+
+<body class="body">
+    <header>
+        <div class="LogoMenu">
+         <span><img class="logo" src="images\logo\Reservia@3x.png" alt="logo réservia"> </span>
+
+         <nav class="menu">
+            <ul>
               <li class="menu"><a href="#Hebergements">Hébergements</a></li>
+
               <li class="menu"><a href="#Activités">Activités</a></li>
+
               <li class="menu"><a href="#S'inscrire">S'inscrire</a></li>
-            </ol>
+            </ul>
           </nav>
+        </div>
         <h1>
           Trouvez votre hébergement pour des vacances de rêve
         </h1>
 
     
        <p>
-        En plein centre ville ou en pleinne nature
+        En plein centre ville ou en pleine nature
        </p> 
     
 
-        <section class="SearchDestination"> 
-            <i class="fas fa-map-marker-alt"></i>
-         <label for="site-search"></label>
-             <input type="search" 
-                 placeholder="Marseille, France">
-            <button>Rechercher</button> 
-            <p>
+        <section> 
+            <div class="SearchDestination">
+                 <span  class="IconeMap"> <i class="fas fa-map-marker-alt"></i></span>
+                <label for="site-search"></label>
+                 <input type="search"  placeholder="Marseille, France" class="label">
+                <button class="BoutonRechercher">Rechercher</button> 
+            </div>
+            <div class="Filtres">
                 Filtres
-                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-money-bill-wave"></i> </span> Economique </article>
+                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-money-bill-wave"></i> </span> <span class="TextFlitre"> Economique </span></article>
                 
-                <article class="Filtre"> <span class="IconeFiltre"> <i class="fas fa-child"></i> </span> Familial</article>
+                <article class="Filtre"> <span class="IconeFiltre"> <i class="fas fa-child"></i> </span> <span class="TextFlitre">Familial</span></article>
 
-                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-heart"></i> </span> Romantique </article>
+                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-heart"></i> </span> <span class="TextFlitre">Romantique </span></article>
 
-                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-dog"></i> </span> Animaux autorisés</article>
-            </p> 
-            <p>
+                <article class="Filtre">  <span class="IconeFiltre"> <i class="fas fa-dog"></i> </span> <span class="TextFlitre">Animaux autorisés</span></article>
+            </div> 
+            <div>
                <span class="CercleGrey">  <i class="fas fa-info"></i> </span>  Plus de 500 logements sont disponibles dans cette ville
 
-            </p>
+            </div>
         </section>
    </header>
 
@@ -111,6 +118,106 @@
     </article>
    </section>
 
+   <section class="PaveGris">
+    <h2>
+        Les plus populaires
+    </h2>
+    <i class="fas fa-chart-line"></i>
+
+    <article class="Populaires">
+        <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
+        <h3>
+            Hôtel Le soleil du matin
+        </h3>
+        <p>Nuit à partir de <strong>128€</strong></p>
+       <span class="StarBlue"> 
+           <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"> </i> <i class="fas fa-star"></i> </span>   
+    </article>
+
+    <article class="Populaires">
+     <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'Hôtes">
+     <h3>
+         Au coeur de l'eau Chambre d'Hôtes
+     </h3>
+     <p>Nuit à partir de <strong>71€</strong></p>
+    <span class="StarBlue"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>  <span class="StarGrey"><i class="fas fa-star"></i></span>
+ </article>
+
+ <article class="Populaires">
+     <img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
+     <h3>
+        Hôtel Tout bleu et Blanc
+     </h3>
+     <p>Nuit à partir de <strong>68€</strong></p>
+    <span class="StarBlue"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>   <span class="StarGrey"><i class="fas fa-star"></i></span>
+ </article>
+
+</section>
+
+<section>
+    <h2>
+        Activités à Marseille
+    </h2>
+    <article class="Activité">
+        <img src="images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+        <h3>
+            Vieux Port
+        </h3>
+    </article>
+
+    <article class="Activité">
+        <img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+        <h3>
+            Fort de Pomègues
+        </h3>
+    </article>
+
+    <article class="Activité">
+        <img src="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+        <h3>
+            Îles du Frioul
+        </h3>
+    </article>
+
+    <article class="Activité">
+        <img src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national de Calanques">
+        <h3>
+            Parc national de Calanques
+        </h3>
+    </article>
+
+    <article class="Activité">
+        <img src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+        <h3>
+            Notre-Dame-de-la-Garde
+        </h3>
+    </article>
+
+    <article class="Activité">
+        <img src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamps">
+        <h3>
+            Parc Longchamps
+        </h3>
+    </article>
+
+    
+</section>
+
+<footer>
+    <nav class="menu">
+        <ol>
+          <li class="menu"><a href="#A propos">A propos</a></li>
+          <li class="menu"><a href="#Fonctionnement du site">Fonctionnement du Site</a></li>
+          <li class="menu"><a href="#Conditions générales de vente">Conditions générales de vente</a></li>
+          <li class="menu"><a href="#Données et confidentialité">Données et confidentialité</a></li>
+          <li class="menu"><a href="#Nos hébergements">Nos hébergements</a></li>
+          <li class="menu"><a href="#Charte qualité">Charte Qualité</a></li>
+          <li class="menu"><a href="#Soumettre votre hôtel">Soumettre votre hôtel</a></li>
+          <li class="menu"><a href="#Assistance">Assistance</a></li>
+          <li class="menu"><a href="#Centre d'aide">Charte Qualité</a></li>
+          <li class="menu"><a href="#Nous contacter">Nous contacter</a></li>
+        </ol>
+      </nav>
+</footer>
 </body>
-<footer></footer>
 </html>
