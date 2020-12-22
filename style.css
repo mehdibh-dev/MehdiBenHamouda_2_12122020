@@ -1,8 +1,10 @@
 *{
 font-family: 'Raleway', sans-serif;
+
 }
+
 body{
-    
+    margin-left: 54px;
 }
 
 .logo{
@@ -134,21 +136,40 @@ nav a {
 
 }
 
-.PaveGris{
+.Hebergement{
     background-color: #F2F2F2;
     border-radius: 20px;
+    width: 880px;
+    height: 626px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .ArticleHebergement{
     background-color: white;
     border-radius: 20px;
-
+    display: flex;
+    width: 246px;
+    height: 199px;
+    flex-direction: column;
 }
+
+.imgHebergement{
+    display: flex;
+    width: 236px;
+    height: 114px;
+    max-width: 100%;
+    
+}
+
 .StarBlue{
     color: #0065FC;
 }
+
 .StarGrey{
     color: #F2F2F2;
 }
+
 .Populaires{
 
 }
