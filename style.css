@@ -22,7 +22,6 @@ body{
     display: inline;
     width: 560px;
     text-align: center;
-    
 }
 
 nav {
@@ -43,6 +42,22 @@ nav a {
     text-decoration: none;
     color: #0065FC;
 }
+
+.Search{
+
+}
+
+.SearchHeader{
+
+}
+.SearchTitle{
+
+}
+
+.SearchSubtitle{
+
+}
+
 
 .SearchDestination{
     width: 420px;
@@ -65,8 +80,12 @@ nav a {
     width: 234px;
     height: 51px;
     border: none;
+    display: flex;
+    font-weight: bold;
+    padding-left: 14px;
 }
-.BoutonRechercher{
+
+.ButtonSearch{
     width: 134px;
     border-radius: 0px 12px 12px 0px;
     color: white;
@@ -86,6 +105,12 @@ nav a {
     font-weight: bold;
 }
 
+.FiltresTitle{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
 .Filtre{
     border: 2px solid;
     border-color: #f2f2f2;
@@ -102,7 +127,7 @@ nav a {
     height: 50px;
     background-color: #DEEBFF;
     color: #0065FC;
-    border-radius:50px;
+    border-radius:100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +151,7 @@ nav a {
 .CercleGrey{
     color: #0065FC;
     border: 2px solid #f2f2f2;
-    border-radius: 50%;
+    border-radius: 100%;
     display: flex;
     width: 50px;
     height: 50px;
@@ -136,31 +161,77 @@ nav a {
 
 }
 
+.HebergementPlusPopulaire{
+display: grid;
+grid-template-columns: 1fr;
+column-gap: 30px;
+row-gap: 30px;
+}
+
 .Hebergement{
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 880px;
-    height: 626px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 40px;
 }
+
+.HebergementHeader{
+grid-column: 1/4;
+}
+.HebergementTitre{
+
+}
+
 .ArticleHebergement{
     background-color: white;
     border-radius: 20px;
-    display: flex;
-    width: 246px;
-    height: 199px;
-    flex-direction: column;
-}
-
-.imgHebergement{
-    display: flex;
-    width: 236px;
-    height: 114px;
-    max-width: 100%;
+    display: block;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+    padding: 6px;  
     
 }
+
+.imgHebergementFg{
+    display: block;
+    margin: 0;}
+
+.imgHebergement{
+    height: 112px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.imgHebergementCp{
+    display: block;
+}
+
+.imgHCpTitre{
+    margin: 4px 12px 0 12px;
+}
+
+.imgHCpTitre h3 {
+    display: block;
+    font-weight: bold;
+}
+
+.TexteHebergement{
+    margin: 4px 12px 4px 12px;
+    display: block;
+}
+.EtoileHebergement{
+    margin: 0px 12px 4px 12px;
+    display: block;
+}
+
 
 .StarBlue{
     color: #0065FC;
@@ -170,7 +241,15 @@ nav a {
     color: #F2F2F2;
 }
 
+.ShowMore{
+font-weight: bold;
+}
+
+
 .Populaires{
+
+}
+.populaire{
 
 }
 .Activité{
