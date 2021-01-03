@@ -346,13 +346,27 @@ height: 446px;
     justify-content: space-between;
     height: 446px;
 }
-.ActivitéDouble{
+.ActivitéDouble1 {
     border-radius: 20px;
     width: 302px;
-    height: 166px;
-        
+    height: 237px; 
     }
-.ImageActivitéDouble{
+    .ActivitéDouble2{
+        border-radius: 20px;
+        width: 302px;
+        height: 166px; 
+        }
+
+.ImageActivitéDouble1{
+    height: 182px;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+} 
+.ImageActivitéDouble2{
     height: 110px;
     max-width: 100%;
     width: 100%;
@@ -361,6 +375,7 @@ height: 446px;
     border-radius: 20px 20px 0px 0px;
     margin: 0;
 } 
+
 .FGImageActivité{
     background-color: white;
     border-radius: 20px;
