@@ -2,7 +2,6 @@
 font-family: 'Raleway', sans-serif;
 
 }
-
 body{
    
     margin: auto ;
@@ -55,7 +54,6 @@ header nav a {
     text-decoration: none;
     color: #0065FC;
 }
-
 .Search{
 
 }
@@ -72,7 +70,7 @@ header nav a {
     width: 420px;
     height: 51px;
     display: flex;
-  background-color: #F2F2F2;
+  
   border-radius: 12px ;
   line-height: 51px;
 }
@@ -82,6 +80,7 @@ header nav a {
     background-color: #F2F2F2;
     text-align: center;
     border-radius: 12px 0px 0px 12px ;
+    background-color: #F2F2F2;
 }
 .label{
     width: 234px;
@@ -100,17 +99,23 @@ header nav a {
 }
 .Filtres{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    width: 938px;
-    height: 50px;
+    width: 938px;   
     line-height: 50px;
     margin-top: 31px;
     margin-bottom: 31px;
     font-weight: bold;
+
 }
 .FiltresTitle{
     font-weight: bold;
+    flex-grow: 1;
+}
+.GroupeFiltre{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
 }
 .Filtre{
     border: 2px solid;
@@ -328,6 +333,7 @@ object-fit: cover;
 border-radius: 20px;
 width: 302px;
 height: 446px;
+box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
     
 }
 .ImageActivitéSimple{
@@ -350,11 +356,13 @@ height: 446px;
     border-radius: 20px;
     width: 302px;
     height: 237px; 
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
     }
     .ActivitéDouble2{
         border-radius: 20px;
         width: 302px;
         height: 166px; 
+        box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
         }
 
 .ImageActivitéDouble1{
@@ -433,3 +441,46 @@ footer a{
 .menuTitre{
     font-weight: bold;
 }
+   .IconSearch {
+       display: none;
+   }
+
+
+
+@media all and (max-width: 1024px){
+
+.SearchDestination{
+    width: auto;
+}
+    .ButtonSearch{
+    border-radius: 10px 10px 10px 10px;
+    width: 51px;
+    margin-left: -15px;
+    
+}
+.TexteButton{
+    display: none;
+}
+.IconSearch{
+    display: inline;
+    font-size: 16px;
+}
+
+
+.Filtres{
+    flex-wrap: wrap;
+    width: auto;
+}
+.GroupeFiltre{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.Filtre{
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-right: 11px;
+}
+
+}
+
