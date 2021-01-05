@@ -174,10 +174,10 @@ align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 880px;
     min-height:626px ;
     align-content: flex-start;
-    padding: 20px;
+    margin-bottom: 20px;
       
      
 }
@@ -200,8 +200,8 @@ align-items: flex-start;
     border: 5px solid white; 
     display: flex;
     flex-direction: column;
-    max-width: 28%;
-    margin: 16px;
+    width: 246px;
+    margin: 10px;
     font-size: 12px;
     height: 199px;
    
@@ -252,11 +252,12 @@ align-items: flex-start;
 .Populaires{
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 20px;
+    
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 420px;
     min-height:626px ;
+    margin-bottom: 20px;
 }
 .PopulairesTitre{
     display: flex;
@@ -271,7 +272,7 @@ align-items: flex-start;
     display: flex;
     border: 5px solid white;
     font-size: 12px;
-    height: 144px;
+    height: 134px;
     
 }
 .ImagePopulaire{
@@ -297,6 +298,7 @@ object-fit: cover;
    display: flex; 
    flex-direction: column;
    margin-left: 21px;
+   
 }
 .PopulaireTitre{
 
@@ -305,10 +307,10 @@ object-fit: cover;
 
 }
 .PopulaireStar{
-
+margin-bottom: 10px;
 }
 .PopulaireEspace{
- 
+ flex: 1;
 }
 .Activités{
     margin-top: 30px;
@@ -455,8 +457,7 @@ footer a{
     .ButtonSearch{
     border-radius: 10px 10px 10px 10px;
     width: 51px;
-    margin-left: -15px;
-    
+    margin-left: -15px; 
 }
 .TexteButton{
     display: none;
@@ -465,16 +466,13 @@ footer a{
     display: inline;
     font-size: 16px;
 }
-
-
 .Filtres{
     flex-wrap: wrap;
     width: auto;
 }
 .GroupeFiltre{
     flex-wrap: wrap;
-    justify-content: flex-start;
-    
+    justify-content: flex-start;   
 }
 .Filtre{
     margin-top: 6px;
@@ -482,5 +480,23 @@ footer a{
     margin-right: 11px;
 }
 
+.Hebergement{order :2}
+.Populaires{order :1}
+.Populaires{}
+.HebergementPlusPopulaire{
+    justify-content: center;
+    width: auto;
+}
+.ArticleHebergement{
+    width: 323px;
+}
+.Populaire{
+    width: 323px;
+    height: 134px;
+    margin: auto;
+}
+.Populaires{
+    
+}
 }
 
