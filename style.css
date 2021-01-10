@@ -175,7 +175,6 @@ align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 880px;
-    min-height:626px ;
     align-content: flex-start;
     margin-bottom: 20px;
       
@@ -248,6 +247,7 @@ align-items: flex-start;
     font-size: 14px;
     display: flex;
     margin: 16px;
+    padding-bottom: 5px
 }
 .Populaires{
     background-color: #F2F2F2;
@@ -256,8 +256,10 @@ align-items: flex-start;
     display: flex;
     flex-direction: column;
     width: 420px;
-    min-height:626px ;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+.ArticlesPopulaires{
+margin-bottom: 25px;
 }
 .PopulairesTitre{
     display: flex;
@@ -273,6 +275,7 @@ align-items: flex-start;
     border: 5px solid white;
     font-size: 12px;
     height: 134px;
+    margin-bottom: 5px;
     
 }
 .ImagePopulaire{
@@ -314,10 +317,9 @@ margin-bottom: 10px;
 }
 .Activités{
     margin-top: 30px;
-
-   /* max-height: 540px;*/
     display: flex;
     flex-direction: column;
+    
 
 
 }
@@ -326,9 +328,11 @@ margin-bottom: 10px;
 }
 .ArticlesActivité{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    height: 456px;
 
 }  
 .ActivitéSimple{
@@ -336,6 +340,7 @@ border-radius: 20px;
 width: 302px;
 height: 446px;
 box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+margin: 5px;
     
 }
 .ImageActivitéSimple{
@@ -359,12 +364,14 @@ box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
     width: 302px;
     height: 237px; 
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+    margin: 5px;
     }
     .ActivitéDouble2{
         border-radius: 20px;
         width: 302px;
         height: 166px; 
         box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+        margin: 5px;
         }
 
 .ImageActivitéDouble1{
@@ -447,9 +454,9 @@ footer a{
        display: none;
    }
 
+  
 
-
-@media all and (max-width: 1024px){
+@media all and (max-width: 1416px){
 
 .SearchDestination{
     width: auto;
@@ -480,9 +487,23 @@ footer a{
     margin-right: 11px;
 }
 
-.Hebergement{order :2}
-.Populaires{order :1}
-.Populaires{}
+.Hebergement{
+    order :2;
+    width:100% ;
+}
+.Populaires{
+    order :1;
+    width: 100%;
+    
+}
+.ArticlesPopulaires{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
 .HebergementPlusPopulaire{
     justify-content: center;
     width: auto;
@@ -494,9 +515,47 @@ footer a{
     width: 323px;
     height: 134px;
     margin: auto;
+    margin-bottom: 10px;
 }
-.Populaires{
+.ArticlesActivité{
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    
+
+}
+.ActivitéSimple{
+    width: 333px;
+    
+    height: 190px;
+    margin: 20px;
+}
+.ImageDouble{
+    height: auto;
+
     
 }
+.ActivitéDouble1{
+    width: 333px;
+    margin: 20px;
+    height: 190px;
+}
+.ActivitéDouble2{
+    width: 333px;
+    margin: 20px;
+    height: 190px;
+}
+.ImageActivitéSimple{
+    height: 134px;
+}
+.ImageActivitéDouble1{
+    height: 134px;
+}
+.ImageActivitéDouble2{
+    height: 134px;
+}
+
 }
 
