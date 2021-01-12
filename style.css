@@ -1,5 +1,7 @@
 *{
 font-family: 'Raleway', sans-serif;
+text-decoration: none;
+    
 
 }
 body{
@@ -12,51 +14,73 @@ body{
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
+  
+}
+a {color: black;}
+.logo{
+    max-width: 96.25px;
+    max-height: 45px;
+    padding-top: 20px;
 
 }
-.logo{
-    width: 100px;
- 
+.LogoSpan{
    
+    flex-grow: 1;
+    align-items: center;
 }
 .LogoMenu{
     display: flex;
-    justify-content: space-between;
+   
+  flex-wrap: wrap;
   
-   align-items: center;
-    
-
+   margin: auto 0;
    
 }
-.menu{
+
+    
+Header .Navmenu a:hover{
+    border-top: 2px solid #0065FC;
+    color: #0065FC}
+
+
+.NavInscription{
     font-weight: bold;
-    display: inline;
-    width: 560px;
-    text-align: center;
 }
-.menu:first-child{
-    border-top: 2px solid #0065FC; 
-}
-header nav {
-     
-}
+
 header nav ul{
-    width: 560px;
+   
     display: flex;
+    padding: 0;
+    margin: 0;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto 0;
 }
+
 header nav li {
-    padding: 26px;
+    padding: 0 26px;
     display: flex;
     align-content: center;
 }
-header nav a {
+.IlInscription a {
     text-decoration: none;
     color: #0065FC;
 }
-.Search{
+.Ilmenu a {
+    text-decoration: none;
+    color: black;
 
 }
+header nav a {
+    padding-top: 40px;
+}
+.NavInscription{
+}
+.Navmenu{
+
+}
+
+
 .SearchHeader{
 
 }
@@ -127,6 +151,16 @@ header nav a {
     border-left: none;
     
 }
+.Filtre:hover { 
+    background-color: #DEEBFF;
+    color: #0065FC;
+    
+
+    
+}
+
+
+
 .IconeFiltre{
     width: 50px;
     height: 50px;
@@ -154,8 +188,8 @@ header nav a {
     border: 2px solid #f2f2f2;
     border-radius: 100%;
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 24px;
+    height: 24px;
     align-items: center;
     justify-content: center;
     margin-right: 12px;
@@ -167,6 +201,7 @@ flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: flex-start;
+
 }
 .Hebergement{
     background-color: #F2F2F2;
@@ -184,12 +219,14 @@ align-items: flex-start;
     font-weight: bold;
     margin: 16px;
     
+    
 }
 .ArticlesHebergements{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
    
 }
 .ArticleHebergement{
@@ -316,12 +353,9 @@ margin-bottom: 10px;
  flex: 1;
 }
 .Activités{
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     
-
-
 }
 .TitreActivité{
 
@@ -452,13 +486,17 @@ footer a{
 .menuTitre{
     font-weight: bold;
 }
-   .IconSearch {
+.IconSearch {
        display: none;
    }
 
   
 
 @media all and (max-width: 1416px){
+
+   /* .NavInscription{order: 1;}
+    .Navmenu{order:2;
+        width: 100%;}*/
 
 .SearchDestination{
     width: auto;
@@ -575,4 +613,9 @@ footer {
 /*footer ul{padding: 50px;}*/
 
 }
+@media all and (max-width: 650px){
 
+    .NavInscription{order: 1;}
+    .Navmenu{order:2;
+        width: 100%;}
+    }
