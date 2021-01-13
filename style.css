@@ -529,11 +529,11 @@ footer a{
 
 .Hebergement{
     order :2;
-    width:100% ;
+    /*width:100% ;*/
 }
 .Populaires{
     order :1;
-    width: 100%;
+    /*width: 100%;*/
     
 }
 .ArticlesPopulaires{
