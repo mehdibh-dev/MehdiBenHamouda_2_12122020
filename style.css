@@ -2,7 +2,7 @@
 font-family: 'Raleway', sans-serif;
 text-decoration: none;
     
-text-rendering: auto;
+
 }
 body{
    
@@ -16,6 +16,8 @@ body{
     padding-right: 50px;
   
 }
+
+.fa, .fab, .fad, .fal, .far, .fas{text-rendering: auto;}
 a {color: black;}
 .logo{
     max-width: 96.25px;
