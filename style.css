@@ -645,11 +645,11 @@ footer {
     .NavInscription{order: 1;}
     .Navmenu{order:2;
         width: 100%;}
-    }
+    
     body { 
         padding-left: 0;
     padding-right: 0;}
 
     .Hebergement{
         background-color: white;
-    }
+    }}
