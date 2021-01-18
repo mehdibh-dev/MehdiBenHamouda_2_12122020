@@ -628,15 +628,17 @@ footer {
     
 }
 .ULfooter{
-   flex-direction: column;
     align-content: center;
     justify-content: space-around;
+    
+}
+.OLfooter{
+    padding-left: 0px;
 }
 .footerColonne{
     width: auto;
 }
 
-/*footer ul{padding: 50px;}*/
 
 }
 @media all and (max-width: 650px){
@@ -652,6 +654,10 @@ footer {
     .Hebergement{
         background-color: white;
     }
+    .Populaires{
+        border-radius: 0%;
+
+    }
     .label{
         flex: 1;
     }
@@ -666,13 +672,19 @@ footer {
         width: 51px;
         border-radius: 10px 10px 10px 10px;
     }
+    .ULfooter{
+        flex-direction: column;}
     
 
 }
+
 @media all and (max-width: 400px){
 .ULfooter{
         align-content: flex-start;
-        padding-left: 29px;
+       margin-left: 29px;
        
+    }
+    footer{
+        margin: 0%;
     }
 }
