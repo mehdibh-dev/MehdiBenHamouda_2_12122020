@@ -497,12 +497,19 @@ footer a{
    /* .NavInscription{order: 1;}
     .Navmenu{order:2;
         width: 100%;}*/
+
 body{
-    margin-left: 21px;
-    margin-right: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+header{
+    padding-left: 21px;
+    padding-right: 21px;
 }
 .SearchDestination{
     width: auto;
+    padding-left: 21px;
+    padding-right: 21px;
 }
 .ButtonSearch{
     border-radius: 10px 10px 10px 10px;
@@ -519,6 +526,8 @@ body{
 .Filtres{
     flex-wrap: wrap;
     width: auto;
+    padding-left: 21px;
+    padding-right: 21px;
 }
 .GroupeFiltre{
     flex-wrap: wrap;
@@ -529,14 +538,22 @@ body{
     margin-bottom: 7px;
     margin-right: 11px;
 }
+.InfoQuantité{
+    padding-left: 21px;
+    padding-right: 21px;
+}
 
 .Hebergement{
     order :2;
-    /*width:100% ;*/
+    width:100% ;
+    padding-left: 21px;
+    padding-right: 21px;
 }
 .Populaires{
     order :1;
     width: 100%;
+    padding-left: 21px;
+    padding-right: 21px;
     
 }
 .ArticlesPopulaires{
@@ -550,7 +567,7 @@ body{
 
 .HebergementPlusPopulaire{
     justify-content: center;
-    width: auto;
+    width: 100%;
 }
 .ArticleHebergement{
     width: 323px;
@@ -560,6 +577,13 @@ body{
     height: 134px;
     margin: auto;
     margin: 10px;
+}
+.Activités{
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.TitreActivité{
+    margin: 16px;
 }
 .ArticlesActivité{
     justify-content: center;
@@ -625,3 +649,7 @@ footer {
     body { 
         padding-left: 0;
     padding-right: 0;}
+
+    .Hebergement{
+        background-color: white;
+    }
