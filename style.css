@@ -497,7 +497,10 @@ footer a{
    /* .NavInscription{order: 1;}
     .Navmenu{order:2;
         width: 100%;}*/
-
+body{
+    margin-left: 21px;
+    margin-right: 21px;
+}
 .SearchDestination{
     width: auto;
 }
@@ -533,7 +536,7 @@ footer a{
 }
 .Populaires{
     order :1;
-    /*width: 100%;*/
+    width: 100%;
     
 }
 .ArticlesPopulaires{
@@ -619,3 +622,6 @@ footer {
     .Navmenu{order:2;
         width: 100%;}
     }
+    body { 
+        padding-left: 0;
+    padding-right: 0;}
