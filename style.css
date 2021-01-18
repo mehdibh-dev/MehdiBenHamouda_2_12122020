@@ -188,11 +188,13 @@ header nav a {
 }
 .CercleGrey{
     color: #0065FC;
-    border: 2px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 100%;
     display: flex;
     width: 24px;
     height: 24px;
+    min-width: 24px;
+    min-height: 24px;
     align-items: center;
     justify-content: center;
     margin-right: 12px;
