@@ -496,9 +496,6 @@ footer a{
 
 @media all and (max-width: 1416px){
 
-   /* .NavInscription{order: 1;}
-    .Navmenu{order:2;
-        width: 100%;}*/
 
 body{
     padding-left: 21px;
@@ -515,17 +512,14 @@ header{
 }
 
 .ButtonSearch{
-   /* border-radius: 10px 10px 10px 10px;
-    width: 51px;
-    margin-left: -15px; */
+
 }
-/*.TexteButton{
-    display: none;
+.TexteButton{
+    
 }
 .IconSearch{
-    display: inline;
-    font-size: 16px;
-}*/
+  
+}
 .Filtres{
     flex-wrap: wrap;
     width: auto;
@@ -629,7 +623,7 @@ header{
 }
 footer {
     height: auto;
-    align-content: center;
+    
 }
 .ULfooter{
    flex-direction: column;
@@ -670,5 +664,12 @@ footer {
         width: 51px;
         border-radius: 10px 10px 10px 10px;
     }
+    
 
+}
+@media all and (max-width: 400px){
+.ULfooter{
+        align-content: flex-start;
+        padding-left: 29px;
+    }
 }
