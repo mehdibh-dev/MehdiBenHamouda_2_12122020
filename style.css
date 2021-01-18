@@ -97,7 +97,10 @@ header nav a {
   
   border-radius: 12px ;
   line-height: 51px;
+  border-top: #F2F2F2 1px solid;
+  border-bottom: #F2F2F2 1px solid;
 }
+
 .IconeMap{
     width: 52px;
     height: 51px;
@@ -430,7 +433,6 @@ margin: 5px;
 .FGImageActivité{
     background-color: white;
     border-radius: 20px;
-    border: 1px solid #f2f2f2;
     margin: 0px;
 
 }
@@ -507,22 +509,23 @@ header{
     padding-right: 21px;
 }
 .SearchDestination{
-    width: auto;
-    padding-left: 21px;
-    padding-right: 21px;
+    width: 333px;
+    margin-left: 21px;
+    
 }
+
 .ButtonSearch{
-    border-radius: 10px 10px 10px 10px;
+   /* border-radius: 10px 10px 10px 10px;
     width: 51px;
-    margin-left: -15px; 
+    margin-left: -15px; */
 }
-.TexteButton{
+/*.TexteButton{
     display: none;
 }
 .IconSearch{
     display: inline;
     font-size: 16px;
-}
+}*/
 .Filtres{
     flex-wrap: wrap;
     width: auto;
@@ -652,4 +655,20 @@ footer {
 
     .Hebergement{
         background-color: white;
-    }}
+    }
+    .label{
+        flex: 1;
+    }
+    .TexteButton{
+        display: none;
+    }
+    .IconSearch{
+        display: inline;
+        font-size: 16px;
+    }
+    .ButtonSearch{
+        width: 51px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+}
