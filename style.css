@@ -39,7 +39,7 @@ a {color: black;}
     
 Header .Navmenu a:hover{
     border-top: 2px solid #0065FC;
-    color: #0065FC}
+    color: #646e7e}
 
 
 .NavInscription{
@@ -431,6 +431,44 @@ margin: 5px;
     border-radius: 20px 20px 0px 0px;
     margin: 0;
 } 
+/*image double bis */
+.ActivitéDouble3 {
+    border-radius: 20px;
+    width: 302px;
+    height: 195px; 
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+    margin: 5px;
+    }
+    .ActivitéDouble4{
+        border-radius: 20px;
+        width: 302px;
+        height: 209px; 
+        box-shadow: 0 0 14px rgba(0, 0, 0, 0.39);
+        margin: 5px;
+        }
+
+.ImageActivitéDouble3{
+    height: 140px;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+} 
+.ImageActivitéDouble4{
+    height: 153px;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+} 
+/*fin image double bis*/
+
+
+
 
 .FGImageActivité{
     background-color: white;
@@ -651,13 +689,18 @@ footer {
     body { 
         padding-left: 0;
     padding-right: 0;}
-
+    .SearchHeader{
+        padding: 21px;
+    }
     .Hebergement{
         background-color: white;
     }
     .Populaires{
         border-radius: 0%;
 
+    }
+    .PopulairesTitre{
+        margin-left: 0px;
     }
     .label{
         flex: 1;
